@@ -1833,6 +1833,100 @@
           "highlight": "over 250 pages with markup"
         }       
       ]
+    },
+    {
+      "name": "BacDive",
+      "description": "The Bacterial Diversity knowledgebase provides strain-linked information about bacterial and archaeal biodiversity.",
+      "keywords": ["CDR"],
+      "url": "https://bacdive.dsmz.de",
+      "nodes": "DE",
+      "profiles": [
+        {
+          "profileName": "DataCatalog",
+          "conformsTo": "0.1",
+          "exampleURL": "https://bacdive.dsmz.de/strain/132485",
+          "highlight": "Same entry (BacDive Data Catalog) on about 100,000 strain pages"
+        },
+        {
+          "profileName": "Dataset",
+          "conformsTo": "0.3-RELEASE-2019_06_14",
+          "exampleURL": "https://bacdive.dsmz.de/strain/132485",
+          "highlight": "About 100,000 strain pages with markup"
+        },
+        {
+          "profileName": "Taxon",
+          "conformsTo": "0.6-RELEASE",
+          "exampleURL": "https://bacdive.dsmz.de/strain/132485",
+          "highlight": "About 100,000 strain pages with markup"
+        }
+      ]
+    },
+    {
+      "name": "MediaDive",
+      "description": "Discover standardized cultivation media recipes and growth conditions for more than 40,000 microbial strains.",
+      "url": "https://mediadive.dsmz.de",
+      "nodes": "DE",
+      "profiles": [
+        {
+          "profileName": "DataCatalog",
+          "conformsTo": "0.1",
+          "exampleURL": "https://mediadive.dsmz.de/medium/1"
+        },
+        {
+          "profileName": "Dataset",
+          "conformsTo": "0.3-RELEASE-2019_06_14",
+          "exampleURL": "https://mediadive.dsmz.de/medium/1"
+        },
+        {
+          "profileName": "labProtocol",
+          "conformsTo": "0.6-DRAFT-2020_12_08",
+          "exampleURL": "https://mediadive.dsmz.de/medium/1",
+          "highlight": "More than 3,300 cultivation media and more than 5,800 solution pages with markup and links to molecular entities"          
+        },
+        {
+          "profileName": "MolecularEntity",
+          "conformsTo": "0.5-RELEASE",
+          "exampleURL": "https://mediadive.dsmz.de/ingredients/5",
+          "highlight": "More than 1,200 ingredient pages with markup"   
+        }
+      ]
+    },
+    {
+      "name": "StrainInfo",
+      "url": "https://straininfo.dsmz.de",
+      "description": "StrainInfo is a service developed to provide a resolution of microbial strain identifiers by storing culture collection numbers, their relations, and deposit-associated data.",
+      "nodes": "DE",
+      "profiles": [
+        {
+          "profileName": "DataCatalog",
+          "conformsTo": "0.1",
+          "exampleURL": "https://straininfo.dsmz.de/strain/69"
+        },
+        {
+          "profileName": "Dataset",
+          "conformsTo": "0.3-RELEASE-2019_06_14",
+          "exampleURL": "https://straininfo.dsmz.de/strain/69",
+          "highlight": "More than 314,000 strain pages with markup"
+        }
+      ]
+    },
+    {
+      "name": "DSMZCellDive",
+      "url": "https://celldive.dsmz.de",
+      "description": "Enable decision-making on the best cell model for research questions by provision of curated data.",
+      "nodes": "DE",
+      "profiles": [
+        {
+          "profileName": "DataCatalog",
+          "conformsTo": "0.1",
+          "exampleURL": "https://celldive.dsmz.de/celllines/HELA"
+        },
+        {
+          "profileName": "Dataset",
+          "conformsTo": "0.3-RELEASE-2019_06_14",
+          "exampleURL": "https://celldive.dsmz.de/celllines/HELA"
+        }
+      ]
     }
   ]
 }
